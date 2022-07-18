@@ -1,0 +1,34 @@
+body {
+  background-color: rgb(247, 244, 240);
+}
+#gameArea {
+  border: 2px solid black;
+  background-color: rgb(27, 117, 206); /*rgb(206, 63, 27);*/
+  width: 525px;
+  height: 500px;
+  margin: 30px auto;
+  border-radius: 30px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 52px;
+  font-family: "Passion One", cursive;
+  margin: 0.3em;
+}
+
+#backDrop {
+  width: 100%;
+  height: 65%;
+  background-image: url("guessThatPokemon.png");
+  background-size: cover;
+}
+
+#userInput {
+  font-size: 20px;
+  margin: 20px;
+}
+
+div {
+  text-align: center;
+}
